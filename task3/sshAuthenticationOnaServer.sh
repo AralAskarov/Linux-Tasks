@@ -2,7 +2,7 @@
 
 password=$1
 
-# its for my virutal machine
+# for virtual machine
 
 if [ ! -f ~/.ssh/id_rsa ]; then
 	ssh-keygen -t rsa -b 4096 -N "" -f ~/.ssh/id_rsa
