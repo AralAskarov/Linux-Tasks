@@ -3,7 +3,7 @@ all: task1 task2 task3 task4 task5 task6 task7 task8 task9 task10 task11
 task1: 
 	cd ../task1 && bash UniqueImages.sh
 task2:
-	cd ../task2 && bash archieves.sh
+	cd ../task2 && bash archives.sh
 task3:
 	cd ../task3 && bash sshAuthenticationOnaServer.sh passw askarov 192.168.0.103
 task4:

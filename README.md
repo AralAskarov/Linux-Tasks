@@ -18,7 +18,7 @@ Write a script that performs the following tasks. (only bash is allowed )
 4. Replace the code from step 2 with the new one and recreate the archive
 
 
-### Task 3
+### [Task #3](task3/README.md)
 
 Create a script that configures SSH key-based authentication on a remote server.
 The script should automatically
@@ -30,7 +30,7 @@ The script should handle all steps without any manual intervention, except for
 executing the script.
 
 
-### Task 4
+### [Task #4](task4/README.md)
 
 Create simple API. Then, create a directory /home/logs and redirect all logs to log
 files in that folder while your application is running. Limit the number of files to 3
@@ -40,7 +40,7 @@ Note: you can't do anything with your application, make changes ONLY at the
 infrastructure level
 
 
-### Task 5
+### [Task #5](task5/README.md)
 
 Create a unit file for your API from task #4. Create a user with limited privileges,
 allowing only application execution (any other level of access for the user - must be
@@ -49,38 +49,38 @@ Your application should start every time your system is launched and restart
 whenever application exits due to some errors.
 
 
-### Task 6
+### [Task #6](task6/README.md)
 
 Write a script to find top-5 heaviest files in your /home directory in descending
 order, based on their size. Example for /Desktop
 
 
-### Task 7
+### [Task #7](task7/README.md)
 
 Write a script to assign default RW permissions for newly created files in the
 /home/logs directory for the user from Task 5.
 
 
-### Task 8
+### [Task #8](task8/README.md)
 
 You are given a file - "example.nomad." Write a script that will change the job name
 (the part specified in parentheses, job "example") to any name that can be passed
 to the script. The changes should be applied to the original file - example.nomad
 
 
-### Task 9
+### [Task #9](task9/README.md)
 
 Close network access to your API service for everyone except one device - the one
 from which you send requests to your service.
 
 
-### Task 10
+### [Task #10](task10/README.md)
 
 Make your API service accessible to chosen servers by name. For example, instead
 of 172.30.240.25:8080 => mysite.
 
 
-### Task 11
+### [Task #11](task11/README.md)
 
 Prepare script to run N instances of your API service and balance incoming traffic
 between these instances. You can’t use load balancer like Nginx.
