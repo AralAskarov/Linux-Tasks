@@ -1,6 +1,6 @@
 # Linux Assignment
 
-### Task #1
+### [Task #1](task1/README.md)
 
 Create script to identify and remove duplicate image files in a given directory,
 ensuring that only one instance of each image is retained. The files to be processed
@@ -8,7 +8,7 @@ are stored in the duplicate_files.zip. Use of the uniq command is not
 allowed. Try to solve the task using a single line of Bash code.
 
 
-### Task #2
+### [Task #2](task2/README.md)
 
 Write a script that performs the following tasks. (only bash is allowed )
 1. Unpack archive_1.zip and find the file that contains code
