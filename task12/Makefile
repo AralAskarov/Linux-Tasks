@@ -21,4 +21,4 @@ task9:
 task10:
 	cd ../task10 && bash task10.sh
 task11:
-	cd ../task11 && bash init.sh
+	cd ../task11 && bash init.sh 5

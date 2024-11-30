@@ -2,7 +2,7 @@
 
 docker build -t api_for_11_task .
 
-read -p "Enter the number of containers to create: " N
+N=$1
 
 # docker run -d --name api1 -p 9999:8000 api_for_11_task
 # docker run -d --name api2 -p 9998:8000 api_for_11_task
